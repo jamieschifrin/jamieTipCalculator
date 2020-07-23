@@ -3,15 +3,84 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#container {
-    height: 525px;
-    width: 360px;
-    margin: 100px auto;
-    background: #f7f7f7;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-  }
+.container {
+    background-color: rgb(216, 227, 230);
+    height: 550px;
+    width: 400px;
+    text-align: center;
+    margin-left: 1000px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+#billAmount{
+    text-align: center;
+}
+
+p {
+    font-weight: bold    ;
+    font-size: 21px;
+   
+
+}
+
+h1 {
+    border-style: double;
+    border-color: black;
+    border-width: 2px;
+    margin-left: 20px ;
+    margin-right: 20px;
+    background-color: rgb(210, 230, 220);
+    margin-top: 20pt;
+}
+
+#lineSpacing{
+    line-height: 1.5;
+}
+
+#tip {
+    font-size: 30px ;
+    border-style: solid;
+    border-color: black;
+    border-width: 1.5px;
+    background-color: white;
+    /* width: 150px; */
+
+   
+     
+    
+}
+
+.biggerEntry{
+font-size: 13pt;
+width: 200px;
+height: 30px;
+text-align: center;
+/* font-weight: bolder; */
+margin-bottom: 10pt;
+}
+
+#serviceQuality {
+    text-align: center;
+}
+
+#calculate {
+    height: 30pt; 
+    width: 120pt;
+    border-radius: 3pt;
+    background-color: rgb(143, 177, 134);
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+#tip {
+    width: 250px;
+    text-align: center;
+    margin-left: 58px;
+    margin-bottom: 10px;
+    
+  
+}

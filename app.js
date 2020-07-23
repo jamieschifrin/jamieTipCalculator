@@ -4,7 +4,7 @@ function tipCalculate() {
     var numberOfPeople = document.getElementById("numberOfPeople").value;
     
     var total = (billAmount * serviceQuality) / numberOfPeople;
-    total = total.toFixed(2);
+    total = '$' + total.toFixed(2) +' each';
 
     document.getElementById("totalTipAmount").style.display = "block";
     document.getElementById("tip").innerHTML = total;
